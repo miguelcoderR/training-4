@@ -1,0 +1,44 @@
+{
+  "roles": [
+    {
+      "id": "customer",
+      "name": "Cliente"
+    },
+    {
+      "id": "worker",
+      "name": "Trabajador"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "nombre": "Juan Perez",
+      "email": "juan@example.com",
+      "contrasena": "password123",
+      "rolId": "customer"
+    },
+    {
+      "id": "07b3",
+      "nombre": "MIGUEL ANGEL ORTEGA CANTILLO",
+      "email": "juaco@gmail.com",
+      "contrasena": "pepito123",
+      "rolId": "customer"
+    },
+    {
+      "id": "bd8c",
+      "nombre": "maria",
+      "email": "maria@gmail.com",
+      "contrasena": "pepe123",
+      "rolId": "customer"
+    },
+    {
+      "id": "5d0e",
+      "nombre": "maria",
+      "email": "maria@gmail.com",
+      "contrasena": "juaco123",
+      "rolId": "customer"
+    }
+  ],
+  "pets": [],
+  "stays": []
+}
