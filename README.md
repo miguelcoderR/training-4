@@ -1,67 +1,67 @@
 # PetCare Center
 
-Bienvenido a **PetCare Center**, una aplicación de página única (SPA) diseñada para gestionar servicios de cuidado de mascotas. Construida con JavaScript puro y un enrutador liviano, PetCare Center ofrece una experiencia fluida y reactiva sin recargas completas de página.
+Welcome to PetCare Center, a single-page application (SPA) designed to manage pet care services. Built with vanilla JavaScript and a custom hash-based router, it delivers a smooth, reload-free experience.
 
 ---
 
-## Tabla de contenido
+## Table of Contents
 
-- [Características](#características)  
-- [Tecnologías](#tecnologías)  
-- [Requisitos previos](#requisitos-previos)  
-- [Instalación y puesta en marcha](#instalación-y-puesta-en-marcha)  
-- [Estructura del proyecto](#estructura-del-proyecto)  
-- [Rutas de la API](#rutas-de-la-api)  
-- [Contribuir](#contribuir)  
-- [Licencia](#licencia)  
-
----
-
-## Características
-
-- **Autenticación de usuarios**  
-  Registro, inicio de sesión y cierre de sesión seguros.
-
-- **Control de acceso por roles**  
-  - **Clientes**: gestionan sus propias mascotas y solicitan estancias.  
-  - **Trabajadores**: revisan todos los usuarios, mascotas y solicitudes de estancia.
-
-- **Gestión de mascotas**  
-  Clientes pueden crear, leer, actualizar y eliminar sus mascotas.  
-  Trabajadores pueden ver y administrar todas las mascotas.
-
-- **Gestión de estancias**  
-  Clientes envían solicitudes de estancia.  
-  Trabajadores revisan, aprueban o rechazan dichas solicitudes.
-
-- **Enrutamiento cliente-side**  
-  Navegación instantánea entre vistas usando un router basado en hash.
-
-- **Backend simulado**  
-  Interacción con una API RESTful ficticia manejada desde `main.js`.
+- [Features](#features)  
+- [Technology Stack](#technology-stack)  
+- [Prerequisites](#prerequisites)  
+- [Installation & Setup](#installation--setup)  
+- [Project Structure](#project-structure)  
+- [API Endpoints](#api-endpoints)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
 ---
 
-## Tecnologías
+## Features
+
+- **User Authentication**  
+  Secure registration, login, and logout workflows.
+
+- **Role-Based Access Control**  
+  - Customers manage their own pets and submit stay requests.  
+  - Workers view all users, manage every pet, and handle all stay requests.
+
+- **Pet Management**  
+  - Customers can add, view, edit, and delete their pets.  
+  - Workers can view and maintain the entire pet roster.
+
+- **Stay Management**  
+  - Customers submit requests for pet stays.  
+  - Workers review, approve, or reject stay requests.
+
+- **Client-Side Routing**  
+  Smooth navigation between views without a full page reload.
+
+- **Simulated Backend**  
+  All API interactions are abstracted in `main.js` to mimic RESTful calls.
+
+---
+
+## Technology Stack
 
 - HTML5  
 - CSS3  
 - JavaScript (ES6+)  
-- Router personalizado (hash-based)  
-- Simulación de API REST  
+- Custom hash-based router  
+- Simulated RESTful API integration  
 
 ---
 
-## Requisitos previos
+## Prerequisites
 
-- Navegador moderno con soporte ES6+.  
-- (Opcional) Node.js + npm para servidor local (`http-server`).
+- A modern web browser with ES6+ support.  
+- (Optional) Node.js and npm if you want to serve locally via `http-server`.
 
 ---
 
-## Instalación y puesta en marcha
+## Installation & Setup
 
-1. Clona el repositorio:  
+1. Clone the repository and enter its directory:  
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
+   git clone [REPOSITORY_URL]
    cd petcare-center
