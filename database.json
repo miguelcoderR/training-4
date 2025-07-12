@@ -15,7 +15,7 @@
       "nombre": "Juan Perez",
       "email": "juan@example.com",
       "contrasena": "password123",
-      "rolId": "customer"
+      "rolId": "worker"
     },
     {
       "id": "07b3",
@@ -37,8 +37,95 @@
       "email": "maria@gmail.com",
       "contrasena": "juaco123",
       "rolId": "customer"
+    },
+    {
+      "id": "888e",
+      "nombre": "pablo",
+      "email": "pablo@gmail.com",
+      "contrasena": "pablo123",
+      "rolId": "customer"
     }
   ],
-  "pets": [],
-  "stays": []
+  "pets": [
+    {
+      "id": "1",
+      "name": "Firulais",
+      "type": "Perro",
+      "breed": "Poodle",
+      "age": 3,
+      "description": "Muy juguetón y cariñoso.",
+      "ownerId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Mimi",
+      "type": "Gato",
+      "breed": "Siames",
+      "age": 2,
+      "description": "Le encanta dormir en lugares altos.",
+      "ownerId": "1"
+    },
+    {
+      "id": "db4a",
+      "name": "sancho",
+      "type": "perro",
+      "breed": "criollo",
+      "age": 12,
+      "description": "ciego-siempre correa",
+      "ownerId": "07b3"
+    },
+    {
+      "id": "1cb0",
+      "name": "molly",
+      "type": "perro",
+      "breed": "esnauser",
+      "age": 2,
+      "description": "juegueotna",
+      "ownerId": "bd8c"
+    },
+    {
+      "id": "3704",
+      "name": "pepe",
+      "type": "loro",
+      "breed": "ave",
+      "age": 4,
+      "description": "no puede volar",
+      "ownerId": "888e"
+    }
+  ],
+  "stays": [
+    {
+      "id": "878d",
+      "petId": null,
+      "ownerId": "07b3",
+      "startDate": "2025-07-11",
+      "endDate": "2025-07-25",
+      "description": "baño-paseo",
+      "status": "confirmed"
+    },
+    {
+      "id": "0138",
+      "petId": 1,
+      "ownerId": "bd8c",
+      "startDate": "2025-07-11",
+      "endDate": "2025-07-24",
+      "description": "baño",
+      "status": "confirmed",
+      "valorDia": 40000,
+      "valorTotal": 600000,
+      "petName": "Firulais",
+      "ownerName": "maria"
+    },
+    {
+      "id": "ff14",
+      "petId": 3704,
+      "ownerId": "888e",
+      "startDate": "2025-07-11",
+      "endDate": "2025-07-17",
+      "description": "alimentar",
+      "status": "pending",
+      "valorDia": 40000,
+      "valorTotal": 280000
+    }
+  ]
 }
